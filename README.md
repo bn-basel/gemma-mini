@@ -15,3 +15,15 @@ The full plan, with steps and "done when" checks, is in [PLAN.md](PLAN.md).
 | `docs/` | Research notes (`docs/research/`) and decisions (`docs/DECISIONS.md`) |
 
 Current phase: **research (Step 0)**. No training or model runs yet.
+
+## How to run the tests
+
+Python 3.13. From this folder:
+
+```bash
+python -m venv .venv
+.venv/Scripts/pip install -r requirements-dev.txt
+.venv/Scripts/python -m pytest
+```
+
+(On macOS/Linux use `.venv/bin/` instead of `.venv/Scripts/`.) CI runs the same tests on every pull request and push to `main`.
