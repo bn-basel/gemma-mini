@@ -66,7 +66,7 @@ Moving to a new device means writing a new thin app, not rebuilding the brain.
 4. **Fine-tune → phone.** Can a LoRA fine-tune be merged and converted to the iOS runtime's format
    with audio and vision still working? **Biggest technical risk — prove it early.**
 5. **Data licenses.** SADA is listed as CC BY-NC-SA 4.0 (non-commercial — fine for research and
-   portfolio, not for Mujawib). Confirm on Kaggle. Check licenses for every other source.
+   portfolio, not for Mudeef). Confirm on Kaggle. Check licenses for every other source.
 
 **Done when:** each question has a written answer with sources in `docs/DECISIONS.md`.
 
