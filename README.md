@@ -1,7 +1,7 @@
 # gemma-mini: Offline Saudi Companion
 
 > **Status: work in progress.** The research phase is finished. Nothing is trained, built or measured yet, so this page
-> makes no performance claims. This is a private repository.
+> makes no performance claims.
 
 An offline assistant for people in the Saudi desert with no signal. You talk to it in Saudi dialect and it answers in Saudi
 dialect. It can also look through the camera. It is built on Google's Gemma 4 small models (E2B and E4B), runs first on an
